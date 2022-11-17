@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Set timeout</title>
+    <link rel="stylesheet" href="Dongho.js">
+    <link rel="stylesheet" href="Dongho.css">
+    <style>
+        body{
+            background: linear-gradient(to right, #333399, rgb(197, 11, 200));
+            color: white;  
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(0, 98, 255), 0 0 80px rgb(0, 55, 255), 0 0 90px rgb(94, 102, 255);
+            margin-top: 300px;
+        }
+        #ShowClock{
+            font-size: 200px;
+            border-radius: 150px;
+            border: 10px solid rgb(255, 255, 255);
+            background: linear-gradient( to left, #3d3dac, rgb(0, 0, 0));
+            box-shadow: 0 0 100px 10px rgb(0, 183, 255);
+        }
+
+    </style>
 </head>
 <body>
-    CHÀO BẠN
+    <!--<button onclick="x = setTimeout(show, 5000)" id="enter">Enter</button>
+    <button onclick="clearTimeout(x)" id="exit">Exit</button>
+    <br><br><br>
+    SetInterval
+    <button onclick="y =setInterval(interval, 4000)">SetIn</button>
+    <button onclick="clearInterval(y)">OutIn</button>
+    <script>
+        function show(){
+            alert("Hello!");
+        }
+        function interval(){
+            alert("Interval");
+        }
+    </script> -->
+
+
+    <div id="ShowClock" onload="ShowClock" align="center"></div>
+
+
+
+
+
+<script>
+    function ShowClock(){
+        var date = new Date();
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+        var tg = "AM"
+    
+        if(hours == 0){
+            hours = 12;
+        }
+
+        if(hours > 24){
+            hours = hours - 12;
+            tg = "PM";
+        }
+
+        hours = (hours < 10)? "0" + hours : hours;
+        minutes = (minutes < 10)? "0" + minutes : minutes;
+        seconds = (seconds < 10)? "0" + seconds : seconds;
+
+        var time = hours + ":" + minutes + ":" + seconds + " " + tg;
+
+        document.getElementById('ShowClock').innerHTML = time;
+        setTimeout(ShowClock, 1000);
+    }
+    ShowClock()
+</script>
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
