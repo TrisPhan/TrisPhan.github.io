@@ -1,0 +1,228 @@
+body{
+    background: linear-gradient(to right, #000000,hwb(254 0% 0%));
+
+}
+#thanhtoan{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+}
+#body{
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid white;
+    height: 50px;
+    position: relative;
+    margin-top: 20px;
+    color: white;
+}
+#ten{
+    position: relative;
+}
+.a{
+    position: absolute;
+    padding-top: 16.5px;
+    padding-left: 20px;
+    text-transform: uppercase;
+
+}
+.a1{
+    position: absolute;
+    padding-top: 16.5px;
+    padding-left: 450px;
+    text-transform: uppercase;
+
+}
+.a2{
+    position: absolute;
+    padding-top: 16.5px;
+    padding-left: 750px;
+    text-transform: uppercase;
+
+}
+.a3{
+    position: absolute;
+    padding-top: 16.5px;
+    padding-left: 1000px;
+    text-transform: uppercase;
+
+}
+.a4{
+    position: absolute;
+    padding-top: 16.5px;
+    padding-left: 1260px;
+    text-transform: uppercase;
+}
+#body1{
+    height: 90px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#anh1{
+    width: 120px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 34, 255);
+    position: absolute;
+    padding-top: 35px;
+}
+a:hover{
+    color:rgb(254, 0, 0);
+}
+.gia1{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 750px;
+}
+.gia2{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1000px;
+}
+#body2{
+    height: 55px;
+    margin-top: -20px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+#body2{
+    color: white;
+}
+#total{
+    padding-top: 10px;
+    padding-left: 1200px;
+    
+}
+#footer{
+    margin-top: 20px;
+    color: white;
+}
+#left{
+    float: left;
+    font-size: 17px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: 2px solid black;
+    border-top-left-radius: 25px;
+    border-right: 2px solid black;
+    border-top-right-radius: 25px;
+    font-size: 17px;
+    background: linear-gradient(to right, #fb09ff,#3e15c4);
+}
+#hoten{
+    width: 500px;
+    margin-left: 24.5px;
+}
+#diachi{
+    width: 500px;
+    margin-left: 22.4px;
+}
+#email{
+    width: 500px;
+    margin-left: 24.5px;
+
+}
+#dienthoai{
+    width: 500px;
+}
+#quocgia{
+    width: 500px;
+    margin-left: 10px;
+
+}
+#thanhpho{
+    width: 500px;
+    margin-left: 41px;
+}
+#zipcuoc{
+    width: 500px;
+    margin-left: 10px;
+}
+#right{
+    float: right;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 33px;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: 2px solid black;
+    border-top-left-radius: 25px;
+    border-right: 2px solid black;
+    border-top-right-radius: 25px;
+    font-size: 17px;
+    background: linear-gradient(to left, #fb09ff,#3e15c4);
+}
+#name{
+    margin-left: 73px;
+}
+#bsb{
+    margin-left: 82px;
+}
+#br1{
+   width: 250px;
+}
+.sale1{
+    margin-left: 0px;
+}
+
+#phancuoi{
+    margin-left: 616px;
+    margin-top: 450px;
+}
+
+#muathem{
+    border-radius: 25px;
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    box-shadow: 0px -3px 3px 0px rgb(141, 141, 141);
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+#muathem:hover{
+    color: rgb(0, 0, 0);
+}
+#thanht{
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    box-shadow: 0px -3px 3px 0px rgb(141, 141, 141);
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+#thanht:hover{
+    color: rgb(0, 0, 0);
+}
+::placeholder{
+    font-size: 17px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
