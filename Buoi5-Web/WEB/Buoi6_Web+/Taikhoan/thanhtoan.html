@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THANH TOÁN</title>
+    <link rel="stylesheet" href="Settings1/options1.css">
+
+</head>
+<body>
+    <div id="header">
+        <div id="thanhtoan"><b> THANH TOÁN </b></div>
+        <hr id="hr" style="background-color: rgb(255, 255, 255); height: 4px;">
+    </div>
+    
+    <div id="body" align="center">
+        <b id="ten" >
+            <div class="a">Items</div>
+            <div class="a1">Quantity</div>
+            <div class="a2">Price</div>
+            <div class="a3">Total</div>
+            <div class="a4">Remove</div>   
+        </b>     
+    </div>
+
+    <div id="body1">
+        <img id="anh1" src="">
+        <span><a href=""></a></span>
+        
+        
+        
+        
+        <div class="gia1"></div>
+        <div class="gia2"></div>
+        <div id="remove">
+            <img src="" alt="">
+        </div>
+    </div>
+    <div id="body2" >
+        <h1 id="total">Total: </h1>
+    </div>
+    <div id="footer" >
+        <div id="left" >
+            <h2>1. Thông tin cá nhân:</h2>
+            <div id="thongtin"><br>
+                <b>Họ tên: <input type="text" id="hoten" placeholder="Nhập họ tên"></b><br><br>
+                <b>Địa chỉ: <input type="text" id="diachi" placeholder="Nhập địa chỉ"><br><br></b>
+                <b>E-mail: <input type="email" id="email" placeholder="Nhập email"><br><br></b>
+                <b>Điện thoại: <input type="number" id="dienthoai" placeholder="Số điện thoại"><br><br></b>
+                <b>Quốc gia: <input type="text" id="quocgia" placeholder="Tên quốc gia"><br><br></b>
+                <b>City: <input type="text" id="thanhpho" placeholder="Tên thành phố"><br><br></b>
+                <b>Zip cước: <input type="text" id="zipcuoc" placeholder="Số zip"><br><br></b>    
+            </div>
+        </div>
+    
+        <div id="right">
+            <h2>2. Phương thức thanh toán:</h2>
+
+            <div id="phuongthuc">
+                <input type="radio" id="chuyenkhoannganhang">
+                    <b>Chuyển khoản ngân hàng Commonwealth (Không mất phí thanh toán)</b>
+                <div class="thongtinnguoinhan">
+                    Thông tin người nhận:
+                        <ol>
+                            <li>Name: <input type="text" id="name" placeholder="Fullname" style="border-radius:10px;"></li><br>
+                            <li>BSB: <input type="text" id="bsb" placeholder="Bank, state & branch code" style="border-radius:10px;"></li><br>
+                            <li>Account number: <input type="number" id="account" placeholder="" style="border-radius: 10px;"></li>
+                        </ol>
+                </div>
+                <input type="radio" id="thanhtoanonecom">
+                    <b>Thanh toán Onecom: Thanh toán bằng thẻ Visa hoặc Master Card (Phí thanh <br> toán 0.29$)</b><br>
+                <input type="radio" id="thanhtoanpaypal">
+                    <b>Thanh Toán Paypal (Phí thanh toán 0.29$)</b><br>
+                <input type="radio" id="doithe">
+                    <b>Đổi thẻ</b><br>
+                <b>*Sale Currency</b><br>
+                <form action="#">
+                    <input list="browsers" name="browser" id="br1" placeholder="Select...">
+                    <datalist id="browsers">
+                        <option class="sale1" value="Sale 20%">
+                        <option class="sale1" value="Sale 25%">
+                        <option class="sale1" value="Sale 50%">
+                        <option class="sale1" value="Sale 55%">
+                        <option class="sale1" value="Sale 75%">
+                    </datalist>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="phancuoi">
+        <button id="muathem" onmouseenter="this.style.backgroundColor = 'white'" onmouseleave="this.style.backgroundColor = 'black'">Mua thêm</button>
+        <button id="thanht" onmouseenter="this.style.backgroundColor = 'white'" onmouseleave="this.style.backgroundColor = 'black'">Thanh toán</button>
+    </div>
+</body>
+</html>
